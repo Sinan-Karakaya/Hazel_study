@@ -12,7 +12,7 @@ namespace Hazel {
 
 		void Run();
 	};
-
+	// Added test comment
 	//To be defined in client
 	Application* CreateApplication();
 
