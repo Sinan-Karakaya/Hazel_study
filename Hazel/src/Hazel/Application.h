@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core.h"
+#include "Event/Event.h"
 
 namespace Hazel {
 
@@ -12,7 +13,7 @@ namespace Hazel {
 
 		void Run();
 	};
-	// Added test comment
+
 	//To be defined in client
 	Application* CreateApplication();
 

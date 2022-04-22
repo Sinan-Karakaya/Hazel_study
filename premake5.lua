@@ -73,8 +73,8 @@ project "Sandbox"
 
 	includedirs
 	{
-		"Hazel/vendor/spdlog/include",
-		"Hazel/src"
+		"${prj.name}/vendor/spdlog/include",
+		"${prj.name}/src"
 	}
 
 	links
