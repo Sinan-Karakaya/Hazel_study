@@ -1,7 +1,7 @@
 #pragma once
 
-
 #include <iostream>
+#include <ostream>
 #include <memory>
 #include <algorithm>
 #include <functional>
@@ -12,6 +12,8 @@
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
+
+#include "Hazel/Log.h"
 
 #ifdef HZ_PLATFORM_WINDOWS
 	#include <Windows.h>
