@@ -4,7 +4,7 @@
 
 namespace Hazel {
 
-	class ImGuiLayer : public Layer
+	class HAZEL_API ImGuiLayer : public Layer
 	{
 	public:
 		ImGuiLayer();
@@ -16,6 +16,6 @@ namespace Hazel {
 		void OnEvent(Event& event);
 
 	private:
-		
+		float m_Time = 0.0f;
 	};
 }
