@@ -90,8 +90,8 @@ project "Sandbox"
 
 	includedirs
 	{
-		"$Hazel/vendor/spdlog/include",
-		"$Hazel/src"
+		"Hazel/vendor/spdlog/include",
+		"Hazel/src"
 	}
 
 	links
